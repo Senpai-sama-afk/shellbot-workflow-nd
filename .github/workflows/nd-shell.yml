@@ -51,7 +51,7 @@ jobs:
           npm install
 
       - name: Run shell-bot server
-        timeout-minutes: 320
+        timeout-minutes: 3200
         continue-on-error: true
         run: |
           cd shell-bot
